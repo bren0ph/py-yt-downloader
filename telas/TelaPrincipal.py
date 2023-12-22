@@ -93,8 +93,8 @@ class Ui_Conversor(object):
         ___qtablewidgetitem = self.Lista.horizontalHeaderItem(0)
         ___qtablewidgetitem.setText(QCoreApplication.translate("Conversor", u"URL", None));
         ___qtablewidgetitem1 = self.Lista.horizontalHeaderItem(1)
-        ___qtablewidgetitem1.setText(QCoreApplication.translate("Conversor", u"Nome", None));
+        ___qtablewidgetitem1.setText(QCoreApplication.translate("Conversor", u"Autor", None));
         ___qtablewidgetitem2 = self.Lista.horizontalHeaderItem(2)
-        ___qtablewidgetitem2.setText(QCoreApplication.translate("Conversor", u"Autor", None));
+        ___qtablewidgetitem2.setText(QCoreApplication.translate("Conversor", u"Nome", None));
     # retranslateUi
 

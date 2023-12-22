@@ -64,8 +64,8 @@ class TelaPrincipal(QMainWindow,Ui_Conversor):
         self.Lista.setRowCount(self.Lista.rowCount() + 1)
         linha = self.Lista.rowCount() - 1
         self.Lista.setItem(linha,0,link)
-        self.Lista.setItem(linha,1,nome)
         self.Lista.setItem(linha,2,autor)
+        self.Lista.setItem(linha,1,nome)
 
         # limpa os campos
         self.Url.clear()
@@ -83,8 +83,8 @@ class TelaPrincipal(QMainWindow,Ui_Conversor):
         # cria as threads de download
         for linha in range(self.Lista.rowCount()):
             link = self.Lista.item(linha,0).text()
-            nome = self.Lista.item(linha,1).text()
-            autor = self.Lista.item(linha,2).text()
+            nome = self.Lista.item(linha,2).text()
+            autor = self.Lista.item(linha,1).text()
 
             threads.append(Baixador(link,nome,autor))
         

@@ -170,12 +170,12 @@
     </column>
     <column>
      <property name="text">
-      <string>Nome</string>
+      <string>Autor</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>Autor</string>
+      <string>Nome</string>
      </property>
     </column>
    </widget>
