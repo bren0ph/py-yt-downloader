@@ -6,7 +6,7 @@ from threading import Thread
 cmd("del /s /q telas\*.py",shell=True)
 
 # seção de conversão de .ui para .py
-# função de conversão adaptada para multithreading
+# classe de conversão adaptada para multithreading
 class Conversor(Thread):
     def __init__(self,arquivo,saida):
         self.arquivo = arquivo
