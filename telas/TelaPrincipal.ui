@@ -13,10 +13,16 @@
     <height>649</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>921</width>
+    <height>649</height>
+   </size>
+  </property>
   <property name="maximumSize">
    <size>
-    <width>2000</width>
-    <height>2000</height>
+    <width>921</width>
+    <height>649</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -37,6 +43,9 @@
       <width>530</width>
       <height>130</height>
      </size>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Começa o processo de download e conversão.&lt;/p&gt;&lt;p&gt;Pode demorar um pouco, dependendo da quantidade de músicas e do nível de processamento do seu dispositivo.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="text">
      <string>Converter</string>
@@ -99,6 +108,9 @@
       <height>16</height>
      </rect>
     </property>
+    <property name="toolTip">
+     <string>O link do vídeo que vai ser baixado</string>
+    </property>
     <property name="text">
      <string>URL do youtube</string>
     </property>
@@ -112,6 +124,9 @@
       <height>16</height>
      </rect>
     </property>
+    <property name="toolTip">
+     <string>Qual é o nome da música</string>
+    </property>
     <property name="text">
      <string>Nome da musica:</string>
     </property>
@@ -124,6 +139,9 @@
       <width>161</width>
       <height>16</height>
      </rect>
+    </property>
+    <property name="toolTip">
+     <string>Quem fez a música</string>
     </property>
     <property name="text">
      <string>Nome do autor:</string>

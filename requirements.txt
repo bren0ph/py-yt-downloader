@@ -1,7 +1,5 @@
 eyed3==0.9.7
 moviepy==1.0.3
-PySide6==6.5.1.1
+pytube==15.0.0
 PySide6==6.6.1
 PySide6_Addons==6.5.1.1
-PySide6_Essentials==6.5.1.1
-pytube==15.0.0

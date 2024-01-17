@@ -1,5 +1,4 @@
 import os
-from subprocess import call as cmd
 from threading import Thread
 from PySide6.QtWidgets import *
 from pytube import YouTube as yt
@@ -97,6 +96,7 @@ class TelaPrincipal(QMainWindow,Ui_Conversor):
             thread.join()
 
         self.limpaLista()
+        del threads
 
 # carrega a janela principal
 if __name__ == '__main__':
